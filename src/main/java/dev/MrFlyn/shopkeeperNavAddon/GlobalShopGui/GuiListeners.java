@@ -34,9 +34,10 @@ public class GuiListeners implements Listener {
         }
     }@EventHandler
     public void onShopkeeperEdit(ShopkeeperEditedEvent e){
-            ShopkeeperSorter.updateSellingItemStacks(e.getPlayer());
-            ShopkeeperSorter.updateVisualRepresentationOfShopkeepers(e.getPlayer());
-            ShopkeeperSorter.updateShopkeeperItemstacks(e.getPlayer());
+        Player p = e.getPlayer();
+            ShopkeeperSorter.updateSellingItemStacks(p);
+            ShopkeeperSorter.updateVisualRepresentationOfShopkeepers(p);
+            ShopkeeperSorter.updateShopkeeperItemstacks(p);
     }@EventHandler
     public void onShopkeeperDelete(ShopkeeperRemoveEvent e){
         if(Bukkit.getServer().getOnlinePlayers().size()>0) {

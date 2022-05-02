@@ -7,20 +7,26 @@
     <groupId>org.example</groupId>
     <artifactId>ShopkeepersNavAddon</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <repositories>
+        <!-- This adds the Spigot Maven repository to the build -->
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
-            <groupId>spigot-1.17.1</groupId>
-            <artifactId>spigot-1.17.1</artifactId>
-            <scope>system</scope>
-            <version>1.0</version>
-            <systemPath>H:\ProjectAPIsSpigot\spigot-1.17.1.jar</systemPath>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.18.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>Shopkeepers-2.13.3</groupId>
-            <artifactId>Shopkeepers-2.13.3</artifactId>
+            <groupId>Shopkeepers-2.15.1</groupId>
+            <artifactId>Shopkeepers-2.15.1</artifactId>
             <scope>system</scope>
             <version>1.0</version>
-            <systemPath>H:\ProjectAPIsSpigot\Shopkeepers-2.13.3.jar</systemPath>
+            <systemPath>H:\ProjectAPIsSpigot\Shopkeepers-2.15.1.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>PlotSquared-Bukkit-6.2.0-Premium</groupId>

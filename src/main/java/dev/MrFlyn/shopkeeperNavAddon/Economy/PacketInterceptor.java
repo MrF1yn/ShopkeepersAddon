@@ -5,7 +5,6 @@ import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.events.PacketAdapter;
 import com.comphenix.protocol.events.PacketEvent;
 import dev.MrFlyn.shopkeeperNavAddon.InvUtils;
-import net.minecraft.network.protocol.game.PacketPlayOutOpenWindowMerchant;
 import org.bukkit.inventory.MerchantRecipe;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.plugin.Plugin;
